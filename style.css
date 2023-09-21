@@ -1,0 +1,67 @@
+.top {
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border: 5px solid red;
+padding: 5px;
+align-items: center;
+width: 80%;
+}
+
+a {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+.Rubrik{
+background-color: aqua;
+border: 2px solid black;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+.mellan {
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 5px solid orange;
+    padding: 5px;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+    }
+
+.rubrik_h{
+    margin: auto;
+background-color: pink;
+border: 2px solid black;
+width: 49%;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.rubrik_v{
+    margin: auto;
+background-color: yellow;
+border: 2px solid black;
+width: 49%;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.botten{
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 5px solid yellow;
+    padding: 5px;
+    width: 80%;
+    height: 450px;
+
+}
